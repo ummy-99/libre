@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: libre
+  datasource:
+    url: jdbc:postgresql://localhost:5432/biblioteca
+    password: ttosct
+    username: postgres
+  jpa:
+    hibernate:
+      ddl-auto: update
